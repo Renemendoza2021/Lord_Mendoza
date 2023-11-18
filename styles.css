@@ -36,20 +36,16 @@ h1 {
     z-index: 1; /* Eleva el z-index para que esté sobre otras capas */
 }
 
-/* Asegura que las secciones estén debajo de la imagen */
-section {
-    position: relative; /* Cambia el posicionamiento a relativo para mantener el flujo normal */
-    z-index: 0; /* Asegura que las secciones estén detrás de la imagen */
-}
-
-
 /* Estilos para las secciones */
 section {
     padding: 20px;
     margin: 20px 0;
     background-color: #1e466b; /* Azul un poco más claro */
     border-radius: 8px;
+    position: relative; /* Cambia el posicionamiento a relativo para mantener el flujo normal */
+    z-index: 0; /* Asegura que las secciones estén detrás de la imagen */
 }
+
 
 h2 {
     font-size: 28px;
