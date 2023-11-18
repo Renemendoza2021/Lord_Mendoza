@@ -8,16 +8,31 @@ body {
 
 /* Estilos para el encabezado */
 header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: linear-gradient(to bottom right, #0087ff, #0d253f);
-
     padding: 20px;
     text-align: center;
+    position: relative; /* Agrega posición relativa para el posicionamiento absoluto de la imagen */
 }
 
 h1 {
     margin: 0;
     font-size: 36px;
 }
+
+.me-image {
+    max-width: 300px; /* Ajusta el tamaño de la imagen */
+    width: 100%; /* Para asegurar el tamaño máximo */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    position: absolute; /* Posición absoluta para superponer */
+    bottom: -50px; /* Ajusta la posición vertical */
+    z-index: 1; /* Eleva el z-index para que esté sobre otras capas */
+}
+
 
 /* Estilos para las secciones */
 section {
