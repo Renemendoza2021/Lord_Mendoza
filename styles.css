@@ -30,8 +30,9 @@ h1 {
     width: 100%;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    position: relative;
-    top: 500px; /* Ajusta la posición vertical */
+    position: absolute;
+    bottom: -50px; /* Ajusta la posición vertical */
+    z-index: 1;
 }
 
 /* Asegura que las secciones estén debajo de la imagen */
@@ -41,7 +42,7 @@ section {
     background-color: #1e466b;
     border-radius: 8px;
     position: relative;
-    z-index: 1; /* Asegura que esté detrás del encabezado */
+    z-index: 0; /* Asegura que estén detrás de la imagen */
 }
 
 h2 {
