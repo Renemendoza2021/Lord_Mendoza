@@ -130,17 +130,6 @@ a.gmail-link {
     padding: 6px 11px;
     border-radius: 6px;
 }
-/* Estilos para la imagen */
-.me-image {
-    max-width: 300px; /* Ajusta el tamaño de la imagen */
-    width: 100%; /* Para asegurar el tamaño máximo */
-    border-radius: 50%; /* Hace que la imagen sea redonda */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
-    position: absolute; /* Posición absoluta para superponer */
-    top: 220px; /* Ajusta la posición vertical */
-    right: 90px; /* Ajusta la posición horizontal */
-    z-index: 1; /* Eleva el z-index para que esté sobre otras capas */
-}
 
 /* Asegura que las secciones estén debajo de la imagen */
 section {
