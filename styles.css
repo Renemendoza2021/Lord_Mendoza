@@ -32,6 +32,8 @@ h1 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: absolute;
     bottom: -50px; /* Ajusta la posición vertical */
+    left: 50%; /* Centra horizontalmente la imagen */
+    transform: translateX(-50%); /* Ajusta la posición horizontal al 50% del contenedor */
     z-index: 1;
 }
 
