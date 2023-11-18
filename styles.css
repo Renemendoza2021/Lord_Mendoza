@@ -15,34 +15,33 @@ header {
     background-image: linear-gradient(to bottom right, #0087ff, #0d253f);
     padding: 20px;
     text-align: center;
-    position: relative; /* Agrega posición relativa para el posicionamiento absoluto de la imagen */
+    position: relative;
 }
 
 h1 {
     margin: 0;
     font-size: 36px;
-    color: white; /* Ajusta el color del título a blanco */
-    position: relative; /* Agrega posición relativa */
-    z-index: 2; /* Asegura que el título esté por encima de la imagen */
+    color: white;
+    z-index: 2;
 }
 
 .me-image {
-    max-width: 300px; /* Ajusta el tamaño de la imagen */
-    width: 100%; /* Para asegurar el tamaño máximo */
-    border-radius: 50%; /* Hace que la imagen sea redonda */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
-    position: relative; /* Cambia a posición relativa para respetar el flujo del documento */
-    margin-top: 20px; /* Ajusta el espacio entre el título y la imagen */
+    max-width: 300px;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    top: 20px; /* Ajusta la posición vertical */
 }
 
 /* Asegura que las secciones estén debajo de la imagen */
 section {
     padding: 20px;
     margin: 20px 0;
-    background-color: #1e466b; /* Azul un poco más claro */
+    background-color: #1e466b;
     border-radius: 8px;
-    position: relative; /* Cambia el posicionamiento a relativo para mantener el flujo normal */
-    z-index: 0; /* Asegura que las secciones estén detrás de la imagen */
+    position: relative;
+    z-index: 1; /* Asegura que esté detrás del encabezado */
 }
 
 h2 {
