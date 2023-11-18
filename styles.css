@@ -25,14 +25,24 @@ h1 {
     color: white;
     z-index: 2;
 }
+.background-section {
+    background-image: linear-gradient(to bottom right, #0d253f, #0087ff); /* Degradado de azul oscuro a azul claro */
+    padding: 40px; /* Espaciado interior */
+    text-align: center;
+    color: white; /* Color del texto */
+}
+
+#quien-soy {
+    margin-bottom: 20px; /* Espacio entre el texto y la imagen */
+}
 
 .me-image {
-    max-width: 100%;
-    display: block;
-    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
-    position: relative; /* Añade posición relativa */
-    z-index: 2; /* Asegura que esté por encima de otras secciones */
+    max-width: 100%; /* Ajustar al ancho del contenedor */
+    height: auto; /* Mantener la proporción */
+    border-radius: 8px; /* Borde redondeado si es necesario */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
 }
+
 
 /* Resto de tus estilos... */
 
