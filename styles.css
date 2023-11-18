@@ -1,0 +1,237 @@
+body {
+    background-color: #0d253f; /* Azul oscuro */
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-image: linear-gradient(to bottom right, #0087ff, #0d253f);
+
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Estilos para las secciones */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #1e466b; /* Azul un poco más claro */
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+/*  estilo para el enlace de WhatsApp */
+a.whatsapp-link {
+    color: white;
+    text-decoration: none;
+    background-color: green;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+/* Agregar estilos para el botón "Contactarme" */
+.boton-contacto {
+    display: inline-block;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Estilos al pasar el cursor sobre el botón */
+.boton-contacto:hover {
+    background-color: white;
+    color: #333;
+}
+/* Estilo para el enlace de Instagram */
+a.instagram-link {
+    color: white;
+    text-decoration: none;
+    background-color: fuchsia;
+    padding: 6px 11px;
+    border-radius: 6px;
+}
+
+/* Estilo para el enlace de Facebook */
+a.facebook-link {
+    color: white;
+    text-decoration: none;
+    background-color: #0d253f;
+    padding: 6px 11px;
+    border-radius: 6px;
+}
+
+/* Estilo para el enlace de Telegram */
+a.telegram-link {
+    color: white;
+    text-decoration: none;
+    background-color: #78bcfc;
+    padding: 6px 11px;
+    border-radius: 6px;
+}
+
+/* Estilo para el enlace de Gmail */
+a.gmail-link {
+    color: white;
+    text-decoration: none;
+    background-color: red;
+    padding: 6px 11px;
+    border-radius: 6px;
+}
+/* Estilos para la imagen */
+.me-image {
+    max-width: 300px; /* Ajusta el tamaño de la imagen */
+    width: 100%; /* Para asegurar el tamaño máximo */
+    border-radius: 50%; /* Hace que la imagen sea redonda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    position: absolute; /* Posición absoluta para superponer */
+    top: 220px; /* Ajusta la posición vertical */
+    right: 90px; /* Ajusta la posición horizontal */
+    z-index: 1; /* Eleva el z-index para que esté sobre otras capas */
+}
+
+/* Asegura que las secciones estén debajo de la imagen */
+section {
+    position: relative; /* Cambia el posicionamiento a relativo para mantener el flujo normal */
+    z-index: 0; /* Asegura que las secciones estén detrás de la imagen */
+}
+
+/* Estilos para la imagen de Tekku.Vzl */
+.tekku-image {
+    max-width: 300px; /* Ajusta el tamaño máximo de la imagen */
+    width: 100%; /* Para asegurar el tamaño máximo */
+    height: auto;
+    border-radius: 8px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+    margin-top: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+  }
+  
+  .exam-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .question {
+    margin-bottom: 20px;
+  }
+  
+  .question textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    resize: vertical;
+  }
+  
+  .submit-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Resto de estilos */
+
+.main-title {
+    text-align: center;
+    color: #fff; /* Color blanco para el título principal */
+  }
+  
+  .exam-title {
+    text-align: center;
+    color: #333; /* Color gris oscuro para el título del examen */
+  }
+  .exam-title {
+    text-align: center;
+    color: #333; /* Color gris oscuro para el título del examen */
+  }
+  
+  .icosahedron {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Espacio entre las caras */
+    justify-content: center; /* Centrar las filas */
+  }
+  
+  .face {
+    width: 50px; /* Ajusta el tamaño de cada cara */
+    height: 50px; /* Ajusta el tamaño de cada cara */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    background-color: red; /* Color inicial */
+    transition: background-color 0.3s ease; /* transición suave */
+  }
+  
+  /* Estilos para cada cara */
+  .face:hover {
+    background-color: green; /* Cambiar color al pasar el ratón */
+  }
+  /* Estilo para las preguntas del examen */
+.question {
+  color: #333; /* Cambiar el color del texto de las preguntas a gris oscuro */
+}
