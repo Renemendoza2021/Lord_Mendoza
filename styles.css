@@ -31,7 +31,7 @@ h1 {
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     position: relative;
-    top: 20px; /* Ajusta la posición vertical */
+    top: 5px; /* Ajusta la posición vertical */
 }
 
 /* Asegura que las secciones estén debajo de la imagen */
