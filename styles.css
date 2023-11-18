@@ -26,20 +26,16 @@ h1 {
     z-index: 2;
 }
 
-header {
-    /* ... tus estilos actuales ... */
-    position: relative;
-}
-
-h1.main-title {
-    /* ... tus estilos actuales ... */
-    margin-bottom: 20px; /* Espacio entre el título y la imagen */
-}
-
 .me-image {
     max-width: 100%;
     display: block;
-    margin-top: 20px; /* Espacio entre la imagen y el siguiente contenido */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+    position: relative; /* Añade posición relativa */
+    z-index: 2; /* Asegura que esté por encima de otras secciones */
+}
+
+/* Resto de tus estilos... */
+
 }
 
 /* Estilos para las secciones */
