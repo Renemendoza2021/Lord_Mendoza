@@ -22,6 +22,8 @@ h1 {
     margin: 0;
     font-size: 36px;
     color: white; /* Ajusta el color del título a blanco */
+    position: relative; /* Agrega posición relativa */
+    z-index: 2; /* Asegura que el título esté por encima de la imagen */
 }
 
 .me-image {
@@ -29,14 +31,11 @@ h1 {
     width: 100%; /* Para asegurar el tamaño máximo */
     border-radius: 50%; /* Hace que la imagen sea redonda */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
-    position: absolute; /* Posición absoluta para superponer */
-    bottom: -50px; /* Ajusta la posición vertical */
-    left: 50%; /* Centra horizontalmente la imagen */
-    transform: translateX(-50%); /* Ajusta la posición horizontal al 50% del contenedor */
-    z-index: 1; /* Eleva el z-index para que esté sobre otras capas */
+    position: relative; /* Cambia a posición relativa para respetar el flujo del documento */
+    margin-top: 20px; /* Ajusta el espacio entre el título y la imagen */
 }
 
-/* Estilos para las secciones */
+/* Asegura que las secciones estén debajo de la imagen */
 section {
     padding: 20px;
     margin: 20px 0;
@@ -45,7 +44,6 @@ section {
     position: relative; /* Cambia el posicionamiento a relativo para mantener el flujo normal */
     z-index: 0; /* Asegura que las secciones estén detrás de la imagen */
 }
-
 
 h2 {
     font-size: 28px;
